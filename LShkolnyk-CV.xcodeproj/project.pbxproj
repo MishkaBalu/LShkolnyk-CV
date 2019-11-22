@@ -14,7 +14,6 @@
 		C3EF95302386873700CC7791 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3EF952F2386873700CC7791 /* Preview Assets.xcassets */; };
 		C3EF95332386873700CC7791 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3EF95312386873700CC7791 /* LaunchScreen.storyboard */; };
 		C3EF953B2386874A00CC7791 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF953A2386874A00CC7791 /* Constants.swift */; };
-		C3EF953F23868CC500CC7791 /* RotatingAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF953E23868CC500CC7791 /* RotatingAnimationView.swift */; };
 		C3EF954123869CBB00CC7791 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF954023869CBB00CC7791 /* HomeView.swift */; };
 		C3EF954323869CC800CC7791 /* ExperienceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF954223869CC800CC7791 /* ExperienceView.swift */; };
 		C3EF954523869CD600CC7791 /* EducationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF954423869CD600CC7791 /* EducationView.swift */; };
@@ -32,7 +31,6 @@
 		C3EF95322386873700CC7791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3EF95342386873700CC7791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3EF953A2386874A00CC7791 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		C3EF953E23868CC500CC7791 /* RotatingAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingAnimationView.swift; sourceTree = "<group>"; };
 		C3EF954023869CBB00CC7791 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		C3EF954223869CC800CC7791 /* ExperienceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceView.swift; sourceTree = "<group>"; };
 		C3EF954423869CD600CC7791 /* EducationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationView.swift; sourceTree = "<group>"; };
@@ -103,7 +101,6 @@
 		C3EF953D23868CB300CC7791 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
-				C3EF953E23868CC500CC7791 /* RotatingAnimationView.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -197,7 +194,6 @@
 				C3EF95292386873500CC7791 /* SceneDelegate.swift in Sources */,
 				C3EF952B2386873500CC7791 /* ContentView.swift in Sources */,
 				C3EF954123869CBB00CC7791 /* HomeView.swift in Sources */,
-				C3EF953F23868CC500CC7791 /* RotatingAnimationView.swift in Sources */,
 				C3EF954523869CD600CC7791 /* EducationView.swift in Sources */,
 				C3EF954323869CC800CC7791 /* ExperienceView.swift in Sources */,
 				C3EF953B2386874A00CC7791 /* Constants.swift in Sources */,

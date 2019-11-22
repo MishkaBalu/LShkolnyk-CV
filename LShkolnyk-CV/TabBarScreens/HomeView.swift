@@ -32,8 +32,8 @@ struct ImportView: View {
     var libraryToImport = String()
     var body: some View {
         HStack {
-            Text("import").font(.custom("SF Mono Medium", size: 20.0)).foregroundColor(.purple)
-            Text(libraryToImport).font(.custom("SF Mono Medium", size: 20.0)).foregroundColor(.white)
+            Text("import").font(.custom("SF Mono Medium", size: 18.0)).foregroundColor(.purple)
+            Text(libraryToImport).font(.custom("SF Mono Medium", size: 18.0)).foregroundColor(.white)
         }
     }
 }
@@ -56,14 +56,63 @@ struct HeaderView: View {
 
 struct CoWorker: View {
     var body: some View {
-        Text("struct ").font(.custom("SF Mono Medium", size: 20.0)).foregroundColor(.purple) + Text("CoWorker {\n").font(.custom("SF Mono Medium", size: 20.0)).foregroundColor(.white) + Text("let ").font(.custom("SF Mono Medium", size: 20.0)).foregroundColor(.purple)
+        VStack(alignment: .leading, spacing: 0.0) {
+            Text("struct ").font(.custom("SF Mono Medium", size: 18.0)).foregroundColor(.purple) + Text("CoWorker {").font(.custom("SF Mono Medium", size: 18.0)).foregroundColor(.white)
+            PropertyView(constantType: "let", propertyName: "mobile", propertyType: "Int", propertyColor: Color(red: 127/255, green: 205/255, blue: 205/255), value: "+380663142137")
+            PropertyView(constantType: "let", propertyName: "telegram", propertyType: "String", propertyColor: .red, value: "@MishkaBalu")
+            PropertyView(constantType: "let", propertyName: "skype", propertyType: "String", propertyColor: .red, value: "duolts1997")
+            PropertyView(constantType: "let", propertyName: "email", propertyType: "String", propertyColor: .red, value: "duolts1997@gmail.com")
+            PropertyView(constantType: "let", propertyName: "English", propertyType: "String", propertyColor: .red, value: "Upper-Intermediate")
+            Text("}").font(.custom("SF Mono Medium", size: 18.0)).foregroundColor(.white)
+        }
     }
 }
 
 struct PropertyView: View {
-    
-    var constantType = "var"
+    var constantType: String
+    var propertyName: String
+    var propertyType: String
+    var propertyColor: Color
+    var value: String
     var body: some View {
-        Text("\(constantType) ").font(.custom("SF Mono Medium", size: 20.0)).foregroundColor(.purple) +
+        Text("   \(constantType) ").font(.custom("SF Mono Medium", size: 18.0)).foregroundColor(.purple) + Text("\(propertyName): ").font(.custom("SF Mono Medium", size: 18.0)).foregroundColor(.white) + Text("\(propertyType) ").font(.custom("SF Mono Medium", size: 18.0)).foregroundColor(.blue) + Text(" = ").font(.custom("SF Mono Medium", size: 18.0)).foregroundColor(.white) + Text("\(value)").font(.custom("SF Mono Medium", size: 18.0)).foregroundColor(propertyColor)
     }
 }
+
+//struct ArrayView: View {
+//    var constantType: String
+//    var propertyName: String
+//    var body: some View {
+//        Text("   \(constantType) ").font(.custom("SF Mono Medium", size: 18.0)).foregroundColor(.purple) +
+//            Text("\(propertyName): ").font(.custom("SF Mono Medium", size: 18.0)).foregroundColor(.white) +
+//            Text("Array").font(.custom("SF Mono Medium", size: 18.0)).foregroundColor(.red) +
+//            Text(" = ").font(.custom("SF Mono Medium", size: 18.0)).foregroundColor(.white) +
+//            Text("[").font(.custom("SF Mono Medium", size: 18.0)).foregroundColor(.white) +
+//            Text("Xcode").font(.custom("SF Mono Medium", size: 18.0)).foregroundColor(.red) +
+//            Text(",").font(.custom("SF Mono Medium", size: 18.0)).foregroundColor(.white) +
+//            Text("Postman").font(.custom("SF Mono Medium", size: 18.0)).foregroundColor(.red) +
+////            Text(",").font(.custom("SF Mono Medium", size: 18.0)).foregroundColor(.white) +
+////            Text("Git").font(.custom("SF Mono Medium", size: 18.0)).foregroundColor(.red) +
+////            Text(",").font(.custom("SF Mono Medium", size: 18.0)).foregroundColor(.white) +
+////            Text("SourceTree").font(.custom("SF Mono Medium", size: 18.0)).foregroundColor(.red) +
+////            Text(",").font(.custom("SF Mono Medium", size: 18.0)).foregroundColor(.white) +
+////            Text("GitKraken").font(.custom("SF Mono Medium", size: 18.0)).foregroundColor(.red) +
+////            Text(",").font(.custom("SF Mono Medium", size: 18.0)).foregroundColor(.white) +
+////            Text("Sublime Text").font(.custom("SF Mono Medium", size: 18.0)).foregroundColor(.red) +
+////            Text(",").font(.custom("SF Mono Medium", size: 18.0)).foregroundColor(.white) +
+////            Text("Adobe Photoshop").font(.custom("SF Mono Medium", size: 18.0)).foregroundColor(.red) +
+////            Text(",").font(.custom("SF Mono Medium", size: 18.0)).foregroundColor(.white) +
+////            Text("Adobe Illustrator").comable().font(.custom("SF Mono Medium", size: 18.0)).foregroundColor(.red) +
+//            Text("]").font(.custom("SF Mono Medium", size: 18.0)).foregroundColor(.white)
+//        }
+//    }
+//
+//extension Text {
+//    mutating func comable() {
+//        let text = self
+//        self = text + Text(",").font(.custom("SF Mono Medium", size: 18.0)).foregroundColor(.white)
+//    }
+//}
+//
+//
+//var softwareKnowledge: Array = ["Xcode", "Charles", "Postman", "Git", "SourceTree", "GitKraken", "SublimeText", "Adobe Photoshop"]
