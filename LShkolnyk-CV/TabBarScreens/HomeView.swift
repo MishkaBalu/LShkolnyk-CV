@@ -64,6 +64,6 @@ struct PropertyView: View {
     
     var constantType = "var"
     var body: some View {
-        Text("\(constantType) ").font(.custom("SF Mono Medium", size: 20.0)).foregroundColor(.purple) +
+        Text("\(constantType) ").font(.custom("SF Mono Medium", size: 20.0)).foregroundColor(.purple)
     }
 }

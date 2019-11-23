@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06D9B2E52389A261005AC86E /* AchievementDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D9B2E42389A261005AC86E /* AchievementDTO.swift */; };
+		06D9B2EA2389B4A3005AC86E /* TreasureStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D9B2E92389B4A3005AC86E /* TreasureStore.swift */; };
+		06D9B2EC2389B4E2005AC86E /* AchievementDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D9B2EB2389B4E2005AC86E /* AchievementDetailsView.swift */; };
 		C3EF95272386873500CC7791 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF95262386873500CC7791 /* AppDelegate.swift */; };
 		C3EF95292386873500CC7791 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF95282386873500CC7791 /* SceneDelegate.swift */; };
 		C3EF952B2386873500CC7791 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF952A2386873500CC7791 /* ContentView.swift */; };
@@ -14,7 +17,6 @@
 		C3EF95302386873700CC7791 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3EF952F2386873700CC7791 /* Preview Assets.xcassets */; };
 		C3EF95332386873700CC7791 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3EF95312386873700CC7791 /* LaunchScreen.storyboard */; };
 		C3EF953B2386874A00CC7791 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF953A2386874A00CC7791 /* Constants.swift */; };
-		C3EF953F23868CC500CC7791 /* RotatingAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF953E23868CC500CC7791 /* RotatingAnimationView.swift */; };
 		C3EF954123869CBB00CC7791 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF954023869CBB00CC7791 /* HomeView.swift */; };
 		C3EF954323869CC800CC7791 /* ExperienceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF954223869CC800CC7791 /* ExperienceView.swift */; };
 		C3EF954523869CD600CC7791 /* EducationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF954423869CD600CC7791 /* EducationView.swift */; };
@@ -23,6 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06D9B2E42389A261005AC86E /* AchievementDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementDTO.swift; sourceTree = "<group>"; };
+		06D9B2E92389B4A3005AC86E /* TreasureStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreasureStore.swift; sourceTree = "<group>"; };
+		06D9B2EB2389B4E2005AC86E /* AchievementDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementDetailsView.swift; sourceTree = "<group>"; };
 		C3EF95232386873500CC7791 /* LShkolnyk-CV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LShkolnyk-CV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3EF95262386873500CC7791 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3EF95282386873500CC7791 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,7 +37,6 @@
 		C3EF95322386873700CC7791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3EF95342386873700CC7791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3EF953A2386874A00CC7791 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		C3EF953E23868CC500CC7791 /* RotatingAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingAnimationView.swift; sourceTree = "<group>"; };
 		C3EF954023869CBB00CC7791 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		C3EF954223869CC800CC7791 /* ExperienceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceView.swift; sourceTree = "<group>"; };
 		C3EF954423869CD600CC7791 /* EducationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationView.swift; sourceTree = "<group>"; };
@@ -51,6 +55,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06D9B2E32389A24A005AC86E /* AchievementsView */ = {
+			isa = PBXGroup;
+			children = (
+				C3EF954623869CE600CC7791 /* AchievementsView.swift */,
+				06D9B2E82389B47A005AC86E /* View */,
+				06D9B2E72389B465005AC86E /* ViewModel */,
+				06D9B2E62389B455005AC86E /* Model */,
+			);
+			path = AchievementsView;
+			sourceTree = "<group>";
+		};
+		06D9B2E62389B455005AC86E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				06D9B2E42389A261005AC86E /* AchievementDTO.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		06D9B2E72389B465005AC86E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				06D9B2E92389B4A3005AC86E /* TreasureStore.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		06D9B2E82389B47A005AC86E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				06D9B2EB2389B4E2005AC86E /* AchievementDetailsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		C3EF951A2386873500CC7791 = {
 			isa = PBXGroup;
 			children = (
@@ -103,7 +142,6 @@
 		C3EF953D23868CB300CC7791 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
-				C3EF953E23868CC500CC7791 /* RotatingAnimationView.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -111,10 +149,10 @@
 		C3EF954A2386A20E00CC7791 /* TabBarScreens */ = {
 			isa = PBXGroup;
 			children = (
+				06D9B2E32389A24A005AC86E /* AchievementsView */,
 				C3EF954023869CBB00CC7791 /* HomeView.swift */,
 				C3EF954223869CC800CC7791 /* ExperienceView.swift */,
 				C3EF954423869CD600CC7791 /* EducationView.swift */,
-				C3EF954623869CE600CC7791 /* AchievementsView.swift */,
 				C3EF954823869CF200CC7791 /* PortfolioView.swift */,
 			);
 			path = TabBarScreens;
@@ -196,10 +234,12 @@
 				C3EF954723869CE600CC7791 /* AchievementsView.swift in Sources */,
 				C3EF95292386873500CC7791 /* SceneDelegate.swift in Sources */,
 				C3EF952B2386873500CC7791 /* ContentView.swift in Sources */,
+				06D9B2EC2389B4E2005AC86E /* AchievementDetailsView.swift in Sources */,
 				C3EF954123869CBB00CC7791 /* HomeView.swift in Sources */,
-				C3EF953F23868CC500CC7791 /* RotatingAnimationView.swift in Sources */,
 				C3EF954523869CD600CC7791 /* EducationView.swift in Sources */,
 				C3EF954323869CC800CC7791 /* ExperienceView.swift in Sources */,
+				06D9B2E52389A261005AC86E /* AchievementDTO.swift in Sources */,
+				06D9B2EA2389B4A3005AC86E /* TreasureStore.swift in Sources */,
 				C3EF953B2386874A00CC7791 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

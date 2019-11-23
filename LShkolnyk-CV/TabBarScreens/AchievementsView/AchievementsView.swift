@@ -7,10 +7,16 @@
 //
 
 import SwiftUI
+import Combine
 
 struct AchievementsView: View {
+    
+    @ObservedObject var treasureStore = TreasureStore()
+    
     var body: some View {
-        Text("AchievementsView")
+        List(treasureStore.treasure) { some in
+            AchievementDetailsView(achievement: some)
+        }
     }
 }
 
