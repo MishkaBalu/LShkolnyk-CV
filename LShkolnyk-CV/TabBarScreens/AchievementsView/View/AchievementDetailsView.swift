@@ -1,5 +1,5 @@
 //
-//  AchievementDetailsView.swift
+//  aaa.swift
 //  LShkolnyk-CV
 //
 //  Created by Kollokvium on 23.11.2019.
@@ -22,5 +22,11 @@ struct AchievementDetailsView: View {
             Text(achievement.description)
                 .lineLimit(0)
         }
+    }
+}
+
+struct AchievementDetailsView_Previews: PreviewProvider {
+    static var previews: some View {
+        AchievementDetailsView(achievement: Achievement(nameIndex: "1", description: "Some"))
     }
 }

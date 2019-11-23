@@ -9,7 +9,7 @@
 import SwiftUI
 import Combine
 
-struct Achievement: Identifiable {
+struct Achievement: Identifiable, Hashable {
     var id = UUID()
     
     var nameIndex: String

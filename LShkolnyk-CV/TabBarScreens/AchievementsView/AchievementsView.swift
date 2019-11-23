@@ -14,8 +14,13 @@ struct AchievementsView: View {
     @ObservedObject var treasureStore = TreasureStore()
     
     var body: some View {
-        List(treasureStore.treasure) { some in
-            AchievementDetailsView(achievement: some)
+        VStack {
+            QGrid(treasureStore.treasure,
+                  columns: 3,
+                  vSpacing: 10,
+                  hSpacing: 10, vPadding: 10, hPadding: 10) { treasure in
+                    AchievementDetailsView(achievement: treasure)
+            }
         }
     }
 }

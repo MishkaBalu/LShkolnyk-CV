@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		06D9B2E52389A261005AC86E /* AchievementDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D9B2E42389A261005AC86E /* AchievementDTO.swift */; };
 		06D9B2EA2389B4A3005AC86E /* TreasureStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D9B2E92389B4A3005AC86E /* TreasureStore.swift */; };
-		06D9B2EC2389B4E2005AC86E /* AchievementDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D9B2EB2389B4E2005AC86E /* AchievementDetailsView.swift */; };
+		06D9B2EE2389BD06005AC86E /* AchievementDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D9B2ED2389BD06005AC86E /* AchievementDetailsView.swift */; };
+		06D9B2F02389E119005AC86E /* QGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D9B2EF2389E119005AC86E /* QGrid.swift */; };
 		C3EF95272386873500CC7791 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF95262386873500CC7791 /* AppDelegate.swift */; };
 		C3EF95292386873500CC7791 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF95282386873500CC7791 /* SceneDelegate.swift */; };
 		C3EF952B2386873500CC7791 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF952A2386873500CC7791 /* ContentView.swift */; };
@@ -27,7 +28,8 @@
 /* Begin PBXFileReference section */
 		06D9B2E42389A261005AC86E /* AchievementDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementDTO.swift; sourceTree = "<group>"; };
 		06D9B2E92389B4A3005AC86E /* TreasureStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreasureStore.swift; sourceTree = "<group>"; };
-		06D9B2EB2389B4E2005AC86E /* AchievementDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementDetailsView.swift; sourceTree = "<group>"; };
+		06D9B2ED2389BD06005AC86E /* AchievementDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementDetailsView.swift; sourceTree = "<group>"; };
+		06D9B2EF2389E119005AC86E /* QGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QGrid.swift; path = "LShkolnyk-CV/TabBarScreens/AchievementsView/View/QGrid.swift"; sourceTree = SOURCE_ROOT; };
 		C3EF95232386873500CC7791 /* LShkolnyk-CV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LShkolnyk-CV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3EF95262386873500CC7791 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3EF95282386873500CC7791 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,7 +87,7 @@
 		06D9B2E82389B47A005AC86E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				06D9B2EB2389B4E2005AC86E /* AchievementDetailsView.swift */,
+				06D9B2ED2389BD06005AC86E /* AchievementDetailsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -142,6 +144,7 @@
 		C3EF953D23868CB300CC7791 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				06D9B2EF2389E119005AC86E /* QGrid.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -229,12 +232,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06D9B2EE2389BD06005AC86E /* AchievementDetailsView.swift in Sources */,
 				C3EF95272386873500CC7791 /* AppDelegate.swift in Sources */,
 				C3EF954923869CF200CC7791 /* PortfolioView.swift in Sources */,
 				C3EF954723869CE600CC7791 /* AchievementsView.swift in Sources */,
 				C3EF95292386873500CC7791 /* SceneDelegate.swift in Sources */,
 				C3EF952B2386873500CC7791 /* ContentView.swift in Sources */,
-				06D9B2EC2389B4E2005AC86E /* AchievementDetailsView.swift in Sources */,
+				06D9B2F02389E119005AC86E /* QGrid.swift in Sources */,
 				C3EF954123869CBB00CC7791 /* HomeView.swift in Sources */,
 				C3EF954523869CD600CC7791 /* EducationView.swift in Sources */,
 				C3EF954323869CC800CC7791 /* ExperienceView.swift in Sources */,
